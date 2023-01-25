@@ -19,8 +19,4 @@ function generatePassword() {
         let randomCharacter2 = Math.floor(Math.random() * characters.length)
         pwd2.textContent += characters[randomCharacter2]
     }
-
-
-
-
 }

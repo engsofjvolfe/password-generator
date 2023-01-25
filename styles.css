@@ -3,9 +3,105 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Karla', sans-serif;
+}
+
 :root {
-    --black: #1F2937;
-    --green: #059669;
-    --blue: #0284C7;
-    --brown: #B45309;
+    --black: #1f2937;
+    --green: #10b981;
+    --gray: #6b7280;
+    --brown: #b45309;
+    --white: #fff;
+}
+
+body {
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+.container-body {
+    width: 100%;
+    min-width: 360px;
+    max-width: 550px;
+    background-color: var(--gray);
+    border-radius: 0.28rem;
+    padding: 2rem 1rem;
+    box-shadow: 4px 7px 15px 5px rgba(0, 0, 0, 0.64);
+}
+
+h1 {
+    max-width: 354px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+}
+
+h1>span {
+    color: var(--green);
+}
+
+p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #d5d4d8;
+}
+
+button {
+    margin-top: 51px;
+    background-color: var(--green);
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: var(--white);
+    padding: 9px 17px;
+    cursor: pointer;
+    border-color: var(--green);
+    border-radius: 5px;
+}
+
+.underline {
+    border: 1px solid var(--black);
+}
+
+.underline,
+.container-generated-passwords {
+    margin-top: 35px;
+}
+
+.container-generated-passwords {
+    display: flex;
+    justify-content: space-between;
+}
+
+#generated-password1,
+#generated-password2 {
+    background-color: var(--black);
+    width: 211px;
+    height: 52px;
+    left: 52px;
+    top: 396px;
+    border-radius: 5px;
+    color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#generated-password1{
+    margin-right: 5px;
+}
+
+#generated-password1 {
+    margin-left: 5px;
 }

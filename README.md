@@ -18,16 +18,15 @@
 ### The challenge
 
 - Build simple password generator
-- buttons INCREMENT by one, two and three
 
 ### Screenshot
 
-![](./assets/images/screenshot.png)
+![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/engsofjvolfe/scoreboard)
-- Live Site URL: [Live site URL](https://jvolfe-basket-scoreboard.netlify.app/)
+- Solution URL: [Solution URL](https://github.com/engsofjvolfe/password-generator)
+- Live Site URL: [Live site URL](https://jvolfe-pwd-generator.netlify.app/)
 
 ## My process
 

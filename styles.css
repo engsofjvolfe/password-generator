@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #1F2937;
+    --green: #059669;
+    --blue: #0284C7;
+    --brown: #B45309;
+}
